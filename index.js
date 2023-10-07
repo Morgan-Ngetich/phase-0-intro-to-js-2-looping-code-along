@@ -1,6 +1,6 @@
 // Code your solutions in this file
 
-const name = ("Guadalupe", "Ollie", "Aki")
+const name = (["Guadalupe", "Ollie", "Aki"])
 function writeCards(name) {
  const thankYouMesssages = [] 
   for (let x = 0; x < name.length; x++) {
